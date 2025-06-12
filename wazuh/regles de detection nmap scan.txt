@@ -1,0 +1,10 @@
+
+  <group name="linux,nmap,network_scan,">
+  <rule id="100020" level="3">
+    <decoded_as>json</decoded_as>
+    <field name="nmap_port">\.+</field>
+    <field name="nmap_port_service">\.+</field>
+      <description>NMAP:La Port $(nmap_port) est ouvert et en march $(nmap_port_service).</description>
+    <options>no_full_log</options>
+  </rule>
+</group>
