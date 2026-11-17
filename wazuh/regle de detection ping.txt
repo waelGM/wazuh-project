@@ -1,9 +1,0 @@
-régle de detection ping sur
-
-<group name="Ping">
- <rule id="100001" level="3">
-  <decoded_as>windows-date-format</decoded_as>
-  <match>ICMP</match>
-  <description>Windows Firewall detected ICMP (ping) traffic</description>
- </rule>
-</group>
