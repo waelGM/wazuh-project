@@ -1,34 +1,32 @@
-Wazuh SOC Homelab
-Overview
-Implementation of a Wazuh SIEM lab environment using:
+# Wazuh SOC Homelab
 
-Windows Server 2019
-Active Directory
-Debian
-Linux Mint
-pfSense
-Sysmon
-Suricata
-Wazuh
-Architecture
-See:
+## Overview
 
-Home.md
-00 Planning/Lab Overview.md
-Features
-Centralized log collection
-Host-based monitoring
-Network monitoring
-Custom detection rules
-Alert generation
-Security use cases
-Detection Use Cases
-Port Scan Detection
-ICMP Detection
-Web DoS Detection
-RDP Brute Force Detection
-Critical Folder Access Detection
-Startup Persistence Detection
-Cobalt Strike Detection
-Documentation
-The complete documentation is available inside the Obsidian vault structure.
+This project documents the deployment of a Wazuh-based Security Operations Center (SOC) homelab.
+
+### Technologies
+
+- Wazuh
+- Windows Server 2019
+- Active Directory
+- Linux Mint
+- Debian
+- pfSense
+- Sysmon
+- Suricata
+- Apache
+- Bind9
+
+### Use Cases
+
+- Port Scan Detection
+- RDP Brute Force Detection
+- Web DoS Detection
+- ICMP Detection
+- Startup Persistence Detection
+- Critical Folder Access Monitoring
+- Cobalt Strike Detection
+
+### Documentation
+
+Documentation has been organized as an Obsidian knowledge base for easier navigation and maintenance.
